@@ -1,0 +1,644 @@
+/* @import url(./root.css); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.header-1 {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.padding-top {
+    padding-top: 76px;
+}
+
+
+.bg-color {
+    background: var(--fc-yellow);
+    z-index: 5;
+}
+
+.bg-clr {
+    background: var(--fc-yellow);
+    z-index: 1;
+}
+
+.about {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+
+}
+
+.home {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+
+}
+
+.about:hover {
+    color: var(--fc-orange);
+
+}
+
+.button-connect {
+    color: var(--fc-orange);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: var(--fc-white);
+    border: none;
+    padding: 12px 32px;
+    white-space: nowrap;
+    transition: all 1s linear;
+
+}
+
+.button-connect:hover {
+    background-color: var(--fc-orange);
+    color: var(--fc-white);
+}
+
+.curser {
+    cursor: pointer;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+}
+
+.welcome {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+
+.position-relative-1 {
+    position: relative;
+}
+
+.absolute-1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.pr-2 {
+    position: relative;
+}
+
+.absolute-2 {
+    position: absolute;
+    top: 4%;
+    left: 29%;
+    z-index: -1;
+}
+
+.pr-3 {
+    position: relative;
+}
+
+.absolute-3 {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+}
+
+.pr-4 {
+    position: relative;
+}
+
+.absolute-4 {
+    position: absolute;
+    top: 66%;
+    left: 23%;
+}
+
+.pr-5 {
+    position: relative;
+}
+
+.absolute-5 {
+    position: absolute;
+    top: 8%;
+    right: 30%;
+    z-index: -1;
+}
+
+.pr-6 {
+    position: relative;
+}
+
+.absolute-6 {
+    position: absolute;
+    top: 6%;
+    right: 6%;
+}
+
+.pr-7 {
+    position: relative;
+}
+
+.absolute-7 {
+    position: absolute;
+    top: 55%;
+    right: 0%;
+}
+
+.pr-8 {
+    position: relative;
+}
+
+.absolute-8 {
+    position: absolute;
+    top: 66%;
+    right: 22%;
+    z-index: -1;
+}
+
+.bg-color-1 {
+    background: var(--fc-light-yellow);
+}
+
+.heading-1 {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 65px;
+
+}
+
+.para-1 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fc-md);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    max-width: 591px;
+    padding-top: 24px;
+
+}
+
+.btn-discover {
+    color: var(--fc-white);
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: var(--fc-orange);
+    padding: 12px 32px;
+    border: none;
+    transition: all 1s linear;
+}
+
+.btn-discover:hover {
+    color: var(--fc-orange);
+    background-color: var(--fc-white);
+}
+
+.padding-1 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/* .............................................supplies..................................................... */
+.bg-color-2 {
+    background: var(--fc-orange);
+}
+
+.supplies {
+    color: var(--fc-white);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.number {
+    color: var(--fc-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text {
+    color: var(--fc-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+
+}
+
+/* ...............................section-timeline............................................. */
+.roadmap {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.qustion {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-1 {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    background: var(--fc-orange);
+    top: 4%;
+    left: 50%;
+    margin-left: -3px;
+    bottom: 23%;
+}
+
+/* Container around content */
+.container-2 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+/* The circles on the timeline */
+.container-2::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: -18px;
+    background-color: var(--fc-white);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: var(--fc-white);
+    position: relative;
+    border-radius: 6px;
+}
+
+.position-relative-2 {
+    position: relative;
+}
+
+.position-absolute-2 {
+    position: absolute;
+    top: 32%;
+    left: 0;
+    z-index: -1;
+}
+
+.pr-9 {
+    position: relative;
+}
+
+.absolute-9 {
+    position: absolute;
+    top: 8%;
+    left: 14%;
+}
+
+.pr-10 {
+    position: relative;
+}
+
+.absolute-10 {
+    position: absolute;
+    top: 76%;
+    left: 0;
+    z-index: -1;
+}
+
+.pr-11 {
+    position: relative;
+}
+
+.absolute-11 {
+    position: absolute;
+    top: 52%;
+    left: 20%;
+}
+
+.pr-12 {
+    position: relative;
+}
+
+.absolute-12 {
+    position: absolute;
+    top: 28%;
+    right: 16%;
+}
+
+.pr-13 {
+    position: relative;
+}
+
+.absolute-13 {
+    position: absolute;
+    top: 11%;
+    right: 0;
+}
+
+.pr-14 {
+    position: relative;
+}
+
+.absolute-14 {
+    position: absolute;
+    top: 75%;
+    right: 0;
+}
+
+.pr-15 {
+    position: relative;
+}
+
+.absolute-15 {
+    position: absolute;
+    top: 75%;
+    right: 24%;
+}
+
+/* .....................................................................section-team......................................................... */
+.team {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.jhone {
+    color: var(--fc-black);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.manager {
+    color: var(--fc-black);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+/* ..........................................................................Accordian-section......................................... */
+.faq {
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xxxl);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.bg-yellow {
+    background: var(--fc-light-yellow);
+}
+
+.copyright {
+    color: var(--fc-black);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.accordion {
+    max-width: 922px;
+    margin: auto;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--fc-light-yellow) !important;
+    color: black !important;
+}
+
+.accordion-item {
+    background-color: var(--fc-light-yellow) !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+.accordion-button {
+    background-color: var(--fc-light-yellow) !important;
+    color: var(--fc-black);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.accordion-body {
+    color: var(--fc-brown);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+
+@media(max-width:1200px) {
+    label[for="iconbox"] {
+        width: 30px;
+        flex-direction: column;
+        display: flex;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+        height: 30px;
+    }
+
+    label[for="iconbox"]>span {
+        width: 100%;
+        height: 5px;
+        background-color: var(--fc-orange);
+    }
+
+    .menulist {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: -100%;
+        transition: all 200ms linear;
+        background-color: var(--fc-yellow);
+        flex-direction: column;
+    }
+
+    input:checked~ul.menulist {
+        right: 0;
+    }
+}
+
+@media(max-width:992px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        bottom: 28%;
+    }
+
+    .timeline::after {
+        bottom: 23.25%;
+    }
+
+    /* Full-width containers */
+    .container-2 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .container-2::before {
+        left: 60px;
+        border: medium solid var(--fc-white);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 13px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0;
+    }
+
+}
+
+@media(min-width:320px) and (max-width:576px) {
+    .timeline::after {
+        bottom: 23%;
+    }
+
+    .w-m-100 {
+        width: 100%;
+    }
+
+    .welcome {
+        padding-top: 35px;
+    }
+
+    .padding-1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}

@@ -1,0 +1,55 @@
+:root {
+    /* font-size */
+    --fs-xsm: 12px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-xxl: 36px;
+    --fs-xxxl: 48px;
+    /* font-color */
+    --fc-white: #FFF;
+    --fc-black: #000;
+    --fc-yellow: #F6E300;
+    --fc-orange: #F4241E;
+    --fc-light-yellow: #FFF03F;
+    --fc-brown: #4d4813;
+}
+
+@media(min-width:320px) and (max-width:576px) {
+    .welcome {
+        --fs-xxl: 28px
+    }
+
+    .text-1 {
+        --fs-xl: 12px
+    }
+
+    .qustion {
+        --fs-xl: 16px
+    }
+
+    .roadmap {
+        --fs-xxxl: 40px;
+    }
+
+    .heading-1 {
+        --fs-xxxl: 30px;
+    }
+
+    .supplies {
+        --fs-xxxl: 40px;
+    }
+
+    .number {
+        --fs-xxxl: 35px;
+    }
+
+    .text {
+        --fs-md: 11px;
+    }
+
+    .para-1 {
+        --fs-md: 12px;
+    }
+}
